@@ -1,0 +1,10 @@
+^C:\USERS\VIVAA\CUDA_TEST\BUILD\CMAKEFILES\8423F73CBB22AFB8006A9A3E8E1D7EDB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vivaa/cuda_test -BC:/Users/vivaa/cuda_test/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/vivaa/cuda_test/build/cuda_benchmarks.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

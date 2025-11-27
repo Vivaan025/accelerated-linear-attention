@@ -1,0 +1,4 @@
+C:/Users/vivaa/cuda_test/build/CMakeFiles/benchmark.dir
+C:/Users/vivaa/cuda_test/build/CMakeFiles/benchmark_throughput.dir
+C:/Users/vivaa/cuda_test/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/vivaa/cuda_test/build/CMakeFiles/ZERO_CHECK.dir
