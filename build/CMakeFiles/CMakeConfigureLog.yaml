@@ -409,3 +409,823 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/MinGW/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/vivaa/cuda_test/build/CMakeFiles/3.27.5/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1104 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCUDACompiler.cmake:75 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CUDA compiler is NVIDIA using "" matched "nvcc: NVIDIA \\(R\\) Cuda compiler driver":
+      nvcc: NVIDIA (R) Cuda compiler driver
+      Copyright (c) 2005-2024 NVIDIA Corporation
+      Built on Fri_Jun_14_16:44:19_Pacific_Daylight_Time_2024
+      Cuda compilation tools, release 12.6, V12.6.20
+      Build cuda_12.6.r12.6/compiler.34431801_0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCUDACompiler.cmake:307 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+      Compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/nvcc.exe 
+      Build flags: 
+      Id flags: --keep;--keep-dir;tmp -v
+      
+      The output was:
+      0
+      
+      C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA>call "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/../../../../../../../VC/Auxiliary/Build/vcvars64.bat" 
+      **********************************************************************
+      ** Visual Studio 2022 Developer Command Prompt v17.6.5
+      ** Copyright (c) 2022 Microsoft Corporation
+      **********************************************************************
+      [vcvarsall.bat] Environment initialized for: 'x64'
+      #$ C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/../../../../../../../VC/Auxiliary/Build/vcvars64.bat
+      #$ ACSetupSvcPort=23210
+      #$ ACSvcPort=17532
+      #$ ALLUSERSPROFILE=C:\\ProgramData
+      #$ APPDATA=C:\\Users\\vivaa\\AppData\\Roaming
+      #$ APPLICATIONINSIGHTS_CONFIGURATION_CONTENT={}
+      #$ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL=1
+      #$ APPLICATION_INSIGHTS_NO_STATSBEAT=true
+      #$ ChocolateyInstall=C:\\ProgramData\\chocolatey
+      #$ ChocolateyLastPathUpdate=133304429595799206
+      #$ ChocolateyToolsLocation=C:\\tools
+      #$ CHROME_CRASHPAD_PIPE_NAME=\\\\.\\pipe\\crashpad_16076_ARVZLEUASHHGRQJZ
+      #$ CMT_MINGW_PATH=C:\\MinGW\\bin
+      #$ CommandPromptType=Native
+      #$ CommonProgramFiles=C:\\Program Files\\Common Files
+      #$ CommonProgramFiles(x86)=C:\\Program Files (x86)\\Common Files
+      #$ CommonProgramW6432=C:\\Program Files\\Common Files
+      #$ COMPUTERNAME=LAPTOP-EEUSUJNB
+      #$ ComSpec=C:\\WINDOWS\\system32\\cmd.exe
+      #$ CUDA_PATH=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6
+      #$ CUDA_PATH_V12_6=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6
+      #$ CXX=C:/MinGW/bin/g++.exe
+      #$ DevEnvDir=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\
+      #$ DriverData=C:\\Windows\\System32\\Drivers\\DriverData
+      #$ EFC_12812_1262719628=1
+      #$ EFC_12812_1592913036=1
+      #$ EFC_12812_2283032206=1
+      #$ EFC_12812_2775293581=1
+      #$ EFC_12812_3789132940=1
+      #$ ELECTRON_RUN_AS_NODE=1
+      #$ ExtensionSdkDir=C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs
+      #$ EXTERNAL_INCLUDE=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\include;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\ATLMFC\\include;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22000.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22000.0\\\\um;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22000.0\\\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22000.0\\\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22000.0\\\\cppwinrt
+      #$ FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+      #$ FPS_BROWSER_USER_PROFILE_STRING=Default
+      #$ Framework40Version=v4.0
+      #$ FrameworkDir=C:\\Windows\\Microsoft.NET\\Framework64\\
+      #$ FrameworkDir64=C:\\Windows\\Microsoft.NET\\Framework64\\
+      #$ FrameworkVersion=v4.0.30319
+      #$ FrameworkVersion64=v4.0.30319
+      #$ HOMEDRIVE=C:
+      #$ HOMEPATH=\\Users\\vivaa
+      #$ INCLUDE=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\include;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\ATLMFC\\include;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22000.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22000.0\\\\um;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22000.0\\\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22000.0\\\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.22000.0\\\\cppwinrt
+      #$ JAVA_HOME=C:\\Program Files\\Java\\jdk-19
+      #$ LIB=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\ATLMFC\\lib\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\lib\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.22000.0\\ucrt\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\\\lib\\10.0.22000.0\\\\um\\x64
+      #$ LIBPATH=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\ATLMFC\\lib\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\lib\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\lib\\x86\\store\\references;C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.22000.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.22000.0;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319
+      #$ LOCALAPPDATA=C:\\Users\\vivaa\\AppData\\Local
+      #$ LOGONSERVER=\\\\LAPTOP-EEUSUJNB
+      #$ NUMBER_OF_PROCESSORS=8
+      #$ OculusBase=C:\\Program Files\\Oculus\\
+      #$ OneDrive=C:\\Users\\vivaa\\OneDrive
+      #$ OS=Windows_NT
+      #$ Path=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Performance Tools\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Performance Tools;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\;C:\\MinGW\\bin;C:\\MinGW\\bin;c:\\Users\\vivaa\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp;C:\\Program Files\\Oculus\\Support\\oculus-runtime;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\dotnet\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\flutter\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\CMake\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\MySQL\\MySQL Shell 9.5\\bin\\;C:\\Users\\vivaa\\miniconda3;C:\\Users\\vivaa\\miniconda3\\Library\\mingw-w64\\bin;C:\\Users\\vivaa\\miniconda3\\Library\\usr\\bin;C:\\Users\\vivaa\\miniconda3\\Library\\bin;C:\\Users\\vivaa\\miniconda3\\Scripts;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\vivaa\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\flutter\\flutter\\bin;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;;C:\\Program Files\\Java\\jdk-19\\bin;C:\\Users\\vivaa\\AppData\\Local\\Pub\\Cache\\bin;C:\\MinGW\\bin;C:\\tools\\dart-sdk\\bin;C:\\Users\\vivaa\\AppData\\Roaming\\Pub\\Cache\\bin;C:\\FlutterAliases;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Ollama;C:\\Users\\vivaa\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64;C:\\Users\\vivaa\\AppData\\Roaming\\npm;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Antigravity\\bin;C:\\platform-tools;;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg
+      #$ PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+      #$ Platform=x64
+      #$ PROCESSOR_ARCHITECTURE=AMD64
+      #$ PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+      #$ PROCESSOR_LEVEL=6
+      #$ PROCESSOR_REVISION=8c01
+      #$ ProgramData=C:\\ProgramData
+      #$ ProgramFiles=C:\\Program Files
+      #$ ProgramFiles(x86)=C:\\Program Files (x86)
+      #$ ProgramW6432=C:\\Program Files
+      #$ PROMPT=$P$G
+      #$ PSModulePath=C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules
+      #$ PUBLIC=C:\\Users\\Public
+      #$ PyCharm Community Edition=C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;
+      #$ RlsSvcPort=22112
+      #$ SESSIONNAME=Console
+      #$ SystemDrive=C:
+      #$ SystemRoot=C:\\WINDOWS
+      #$ UCRTVersion=10.0.22000.0
+      #$ UniversalCRTSdkDir=C:\\Program Files (x86)\\Windows Kits\\10\\
+      #$ USERDOMAIN=LAPTOP-EEUSUJNB
+      #$ USERDOMAIN_ROAMINGPROFILE=LAPTOP-EEUSUJNB
+      #$ USERNAME=vivaa
+      #$ USERPROFILE=C:\\Users\\vivaa
+      #$ VCIDEInstallDir=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\
+      #$ VCINSTALLDIR=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\
+      #$ VCPKG_ROOT=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg
+      #$ VCToolsInstallDir=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\
+      #$ VCToolsRedistDir=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Redist\\MSVC\\14.36.32532\\
+      #$ VCToolsVersion=14.36.32532
+      #$ VisualStudioVersion=17.0
+      #$ VS170COMNTOOLS=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\
+      #$ VSCMD_ARG_app_plat=Desktop
+      #$ VSCMD_ARG_HOST_ARCH=x64
+      #$ VSCMD_ARG_TGT_ARCH=x64
+      #$ VSCMD_VER=17.6.5
+      #$ VSCODE_CODE_CACHE_PATH=C:\\Users\\vivaa\\AppData\\Roaming\\Code\\CachedData\\c9d77990917f3102ada88be140d28b038d1dd7c7
+      #$ VSCODE_CRASH_REPORTER_PROCESS_TYPE=extensionHost
+      #$ VSCODE_CWD=C:\\Users\\vivaa\\AppData\\Local\\Programs\\Microsoft VS Code
+      #$ VSCODE_ESM_ENTRYPOINT=vs/workbench/api/node/extensionHostProcess
+      #$ VSCODE_HANDLES_UNCAUGHT_ERRORS=true
+      #$ VSCODE_IPC_HOOK=\\\\.\\pipe\\e1209434-1.108.2-main-sock
+      #$ VSCODE_L10N_BUNDLE_LOCATION=
+      #$ VSCODE_NLS_CONFIG={"userLocale":"en-us","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"C:\\\\Users\\\\vivaa\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\resources\\\\app\\\\out\\\\nls.messages.json","locale":"en-us","availableLanguages":{}}
+      #$ VSCODE_PID=16076
+      #$ vsconsoleoutput=1
+      #$ VSINSTALLDIR=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\
+      #$ windir=C:\\WINDOWS
+      #$ WindowsLibPath=C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.22000.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.22000.0
+      #$ WindowsSdkBinPath=C:\\Program Files (x86)\\Windows Kits\\10\\bin\\
+      #$ WindowsSdkDir=C:\\Program Files (x86)\\Windows Kits\\10\\
+      #$ WindowsSDKLibVersion=10.0.22000.0\\
+      #$ WindowsSdkVerBinPath=C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\
+      #$ WindowsSDKVersion=10.0.22000.0\\
+      #$ ZES_ENABLE_SYSMAN=1
+      #$ __DOTNET_ADD_64BIT=1
+      #$ __DOTNET_PREFERRED_BITNESS=64
+      #$ __VSCMD_PREINIT_PATH=C:\\MinGW\\bin;C:\\MinGW\\bin;c:\\Users\\vivaa\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp;C:\\Program Files\\Oculus\\Support\\oculus-runtime;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\dotnet\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\flutter\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\CMake\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\MySQL\\MySQL Shell 9.5\\bin\\;C:\\Users\\vivaa\\miniconda3;C:\\Users\\vivaa\\miniconda3\\Library\\mingw-w64\\bin;C:\\Users\\vivaa\\miniconda3\\Library\\usr\\bin;C:\\Users\\vivaa\\miniconda3\\Library\\bin;C:\\Users\\vivaa\\miniconda3\\Scripts;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\vivaa\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\flutter\\flutter\\bin;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;;C:\\Program Files\\Java\\jdk-19\\bin;C:\\Users\\vivaa\\AppData\\Local\\Pub\\Cache\\bin;C:\\MinGW\\bin;C:\\tools\\dart-sdk\\bin;C:\\Users\\vivaa\\AppData\\Roaming\\Pub\\Cache\\bin;C:\\FlutterAliases;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Ollama;C:\\Users\\vivaa\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64;C:\\Users\\vivaa\\AppData\\Roaming\\npm;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Antigravity\\bin;C:\\platform-tools;
+      #$ PATH=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Performance Tools\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Performance Tools;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\;C:\\MinGW\\bin;C:\\MinGW\\bin;c:\\Users\\vivaa\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp;C:\\Program Files\\Oculus\\Support\\oculus-runtime;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\dotnet\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\flutter\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\CMake\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\MySQL\\MySQL Shell 9.5\\bin\\;C:\\Users\\vivaa\\miniconda3;C:\\Users\\vivaa\\miniconda3\\Library\\mingw-w64\\bin;C:\\Users\\vivaa\\miniconda3\\Library\\usr\\bin;C:\\Users\\vivaa\\miniconda3\\Library\\bin;C:\\Users\\vivaa\\miniconda3\\Scripts;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\vivaa\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\flutter\\flutter\\bin;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;;C:\\Program Files\\Java\\jdk-19\\bin;C:\\Users\\vivaa\\AppData\\Local\\Pub\\Cache\\bin;C:\\MinGW\\bin;C:\\tools\\dart-sdk\\bin;C:\\Users\\vivaa\\AppData\\Roaming\\Pub\\Cache\\bin;C:\\FlutterAliases;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Ollama;C:\\Users\\vivaa\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64;C:\\Users\\vivaa\\AppData\\Roaming\\npm;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Antigravity\\bin;C:\\platform-tools;;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg
+      #$ _NVVM_BRANCH_=nvvm
+      #$ _SPACE_= 
+      #$ _CUDART_=cudart
+      #$ _HERE_=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin
+      #$ _THERE_=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin
+      #$ _TARGET_SIZE_=
+      #$ _TARGET_DIR_=
+      #$ _TARGET_SIZE_=64
+      #$ _WIN_PLATFORM_=x64
+      #$ TOP=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/..
+      #$ CICC_PATH=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../nvvm/bin
+      #$ NVVMIR_LIBRARY_DIR=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../nvvm/libdevice
+      #$ PATH=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../nvvm/bin;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Performance Tools\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Performance Tools;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\;C:\\MinGW\\bin;C:\\MinGW\\bin;c:\\Users\\vivaa\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp;C:\\Program Files\\Oculus\\Support\\oculus-runtime;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\dotnet\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\flutter\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\CMake\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\MySQL\\MySQL Shell 9.5\\bin\\;C:\\Users\\vivaa\\miniconda3;C:\\Users\\vivaa\\miniconda3\\Library\\mingw-w64\\bin;C:\\Users\\vivaa\\miniconda3\\Library\\usr\\bin;C:\\Users\\vivaa\\miniconda3\\Library\\bin;C:\\Users\\vivaa\\miniconda3\\Scripts;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\vivaa\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\flutter\\flutter\\bin;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;;C:\\Program Files\\Java\\jdk-19\\bin;C:\\Users\\vivaa\\AppData\\Local\\Pub\\Cache\\bin;C:\\MinGW\\bin;C:\\tools\\dart-sdk\\bin;C:\\Users\\vivaa\\AppData\\Roaming\\Pub\\Cache\\bin;C:\\FlutterAliases;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Ollama;C:\\Users\\vivaa\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64;C:\\Users\\vivaa\\AppData\\Roaming\\npm;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Antigravity\\bin;C:\\platform-tools;;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg
+      #$ INCLUDES="-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../include"  
+      #$ LIBRARIES=  "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64"
+      #$ CUDAFE_FLAGS=
+      #$ PTXAS_FLAGS=
+      #$ erase tmp/a_dlink.reg.c
+      CMakeCUDACompilerId.cu
+      #$ resource file tmp/CMakeCUDACompilerId.cpp4.ii.res: [-D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -E -TP -EHsc -D__CUDACC__ -D__NVCC__  "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../include"    -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=6 -D__CUDACC_VER_BUILD__=20 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=6 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" "CMakeCUDACompilerId.cu" ]
+      #$ cl.exe @"tmp/CMakeCUDACompilerId.cpp4.ii.res" > "tmp/CMakeCUDACompilerId.cpp4.ii" 
+      CMakeCUDACompilerId.cu
+      #$ cudafe++ --ms_c++14 --microsoft_version=1936 --msvc_target_version=1936 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/../../../../../../.." --sdk_dir "C:/Program Files (x86)/Windows Kits/10/" --display_error_number --orig_src_file_name "CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --m64 --parse_templates --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "CMakeCUDACompilerId.cudafe1.stub.c" --gen_module_id_file --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" "tmp/CMakeCUDACompilerId.cpp4.ii" 
+      #$ resource file tmp/CMakeCUDACompilerId.cpp1.ii.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -E -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc -D__CUDACC__ -D__NVCC__  "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../include"    -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=6 -D__CUDACC_VER_BUILD__=20 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=6 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" "CMakeCUDACompilerId.cu" ]
+      #$ cl.exe @"tmp/CMakeCUDACompilerId.cpp1.ii.res" > "tmp/CMakeCUDACompilerId.cpp1.ii" 
+      CMakeCUDACompilerId.cu
+      #$ ""%CICC_PATH%\\cicc" --ms_c++14 --microsoft_version=1936 --msvc_target_version=1936 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/../../../../../../.." --sdk_dir "C:/Program Files (x86)/Windows Kits/10/" --display_error_number --orig_src_file_name "CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "CMakeCUDACompilerId.fatbin.c" -tused --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.c" --stub_file_name "tmp/CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "tmp/CMakeCUDACompilerId.cudafe1.gpu"  "tmp/CMakeCUDACompilerId.cpp1.ii" -o "tmp/CMakeCUDACompilerId.ptx""
+      #$ ptxas -arch=sm_52 -m64 "tmp/CMakeCUDACompilerId.ptx"  -o "tmp/CMakeCUDACompilerId.sm_52.cubin" 
+      #$ fatbinary --create="tmp/CMakeCUDACompilerId.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " "--image3=kind=elf,sm=52,file=tmp/CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=tmp/CMakeCUDACompilerId.ptx" --embedded-fatbin="tmp/CMakeCUDACompilerId.fatbin.c" 
+      #$ resource file tmp/CMakeCUDACompilerId.obj.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -c -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../include"   "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\CMakeCUDACompilerId.cudafe1.cpp" ]
+      #$ cl.exe @"tmp/CMakeCUDACompilerId.obj.res" -Fo"tmp/CMakeCUDACompilerId.obj" 
+      CMakeCUDACompilerId.cudafe1.cpp
+      #$ resource file tmp/a_dlink.sm_52.cubin.optf: [-m64 --arch=sm_52 --register-link-binaries="tmp/a_dlink.reg.c"    "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64" -cpu-arch=X86_64 "tmp/CMakeCUDACompilerId.obj"  cudadevrt.lib  -o "tmp/a_dlink.sm_52.cubin"]
+      #$ nvlink -optf "tmp/a_dlink.sm_52.cubin.optf"
+      #$ fatbinary --create="tmp/a_dlink.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -link "--image3=kind=elf,sm=52,file=tmp/a_dlink.sm_52.cubin" --embedded-fatbin="tmp/a_dlink.fatbin.c" 
+      #$ resource file tmp/a_dlink.obj.res: [-D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -c -TP -EHsc -DFATBINFILE="\\"tmp/a_dlink.fatbin.c\\"" -DREGISTERLINKBINARYFILE="\\"tmp/a_dlink.reg.c\\"" -I. -D__NV_EXTRA_INITIALIZATION= -D__NV_EXTRA_FINALIZATION= -D__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__  "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../include"    -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=6 -D__CUDACC_VER_BUILD__=20 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=6 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin\\crt\\link.stub" ]
+      #$ cl.exe @"tmp/a_dlink.obj.res" -Fo"tmp/a_dlink.obj" 
+      link.stub
+      #$ resource file tmp/a.exe.res: [-D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\a_dlink.obj" "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\CMakeCUDACompilerId.obj" -link -INCREMENTAL:NO   "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64"  cudadevrt.lib  cudart_static.lib]
+      #$ cl.exe @"tmp/a.exe.res" -Fe"a.exe" 
+         Creating library a.lib and object a.exp
+      
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "a.exe"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "a.exp"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "a.lib"
+      
+      The CUDA compiler identification is NVIDIA, found in:
+        C:/Users/vivaa/cuda_test/build/CMakeFiles/3.27.5/CompilerIdCUDA/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1155 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCUDACompiler.cmake:307 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CUDA compiler /showIncludes prefix:
+        nvcc fatal   : Don't know what to do with 'C:/c'
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1155 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCUDACompiler.cmake:307 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CUDA compiler /showIncludes prefix:
+        nvcc fatal   : Don't know what to do with 'C:/c'
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCUDACompiler.cmake:523 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CUDA nvcc implicit link information:
+        found 'PATH=' string: [C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Performance Tools\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Performance Tools;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\;C:\\MinGW\\bin;C:\\MinGW\\bin;c:\\Users\\vivaa\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp;C:\\Program Files\\Oculus\\Support\\oculus-runtime;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\dotnet\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\flutter\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\CMake\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\MySQL\\MySQL Shell 9.5\\bin\\;C:\\Users\\vivaa\\miniconda3;C:\\Users\\vivaa\\miniconda3\\Library\\mingw-w64\\bin;C:\\Users\\vivaa\\miniconda3\\Library\\usr\\bin;C:\\Users\\vivaa\\miniconda3\\Library\\bin;C:\\Users\\vivaa\\miniconda3\\Scripts;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\vivaa\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\flutter\\flutter\\bin;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;;C:\\Program Files\\Java\\jdk-19\\bin;C:\\Users\\vivaa\\AppData\\Local\\Pub\\Cache\\bin;C:\\MinGW\\bin;C:\\tools\\dart-sdk\\bin;C:\\Users\\vivaa\\AppData\\Roaming\\Pub\\Cache\\bin;C:\\FlutterAliases;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Ollama;C:\\Users\\vivaa\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64;C:\\Users\\vivaa\\AppData\\Roaming\\npm;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Antigravity\\bin;C:\\platform-tools;;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg]
+        found 'LIBRARIES=' string: ["/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64"]
+        considering line: []
+        considering line: [C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA>call "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/../../../../../../../VC/Auxiliary/Build/vcvars64.bat" ]
+        considering line: [**********************************************************************]
+        considering line: [** Visual Studio 2022 Developer Command Prompt v17.6.5]
+        considering line: [** Copyright (c) 2022 Microsoft Corporation]
+        considering line: [**********************************************************************]
+        considering line: [[vcvarsall.bat] Environment initialized for: 'x64']
+        considering line: [C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/../../../../../../../VC/Auxiliary/Build/vcvars64.bat]
+        considering line: [PyCharm Community Edition=C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin]
+        considering line: []
+        considering line: [erase tmp/a_dlink.reg.c]
+        considering line: [CMakeCUDACompilerId.cu]
+        considering line: [resource file tmp/CMakeCUDACompilerId.cpp4.ii.res: [-D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -E -TP -EHsc -D__CUDACC__ -D__NVCC__  "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../include"    -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=6 -D__CUDACC_VER_BUILD__=20 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=6 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" "CMakeCUDACompilerId.cu" ]]
+        considering line: [cl.exe @"tmp/CMakeCUDACompilerId.cpp4.ii.res" > "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [CMakeCUDACompilerId.cu]
+        considering line: [cudafe++ --ms_c++14 --microsoft_version=1936 --msvc_target_version=1936 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/../../../../../../.." --sdk_dir "C:/Program Files (x86)/Windows Kits/10/" --display_error_number --orig_src_file_name "CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --m64 --parse_templates --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "CMakeCUDACompilerId.cudafe1.stub.c" --gen_module_id_file --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [resource file tmp/CMakeCUDACompilerId.cpp1.ii.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -E -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc -D__CUDACC__ -D__NVCC__  "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../include"    -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=6 -D__CUDACC_VER_BUILD__=20 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=6 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" "CMakeCUDACompilerId.cu" ]]
+        considering line: [cl.exe @"tmp/CMakeCUDACompilerId.cpp1.ii.res" > "tmp/CMakeCUDACompilerId.cpp1.ii" ]
+        considering line: [CMakeCUDACompilerId.cu]
+        considering line: [""%CICC_PATH%\\cicc" --ms_c++14 --microsoft_version=1936 --msvc_target_version=1936 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/../../../../../../.." --sdk_dir "C:/Program Files (x86)/Windows Kits/10/" --display_error_number --orig_src_file_name "CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "CMakeCUDACompilerId.fatbin.c" -tused --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.c" --stub_file_name "tmp/CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "tmp/CMakeCUDACompilerId.cudafe1.gpu"  "tmp/CMakeCUDACompilerId.cpp1.ii" -o "tmp/CMakeCUDACompilerId.ptx""]
+        considering line: [ptxas -arch=sm_52 -m64 "tmp/CMakeCUDACompilerId.ptx"  -o "tmp/CMakeCUDACompilerId.sm_52.cubin" ]
+        considering line: [fatbinary --create="tmp/CMakeCUDACompilerId.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " "--image3=kind=elf,sm=52,file=tmp/CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=tmp/CMakeCUDACompilerId.ptx" --embedded-fatbin="tmp/CMakeCUDACompilerId.fatbin.c" ]
+        considering line: [resource file tmp/CMakeCUDACompilerId.obj.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -c -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../include"   "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\CMakeCUDACompilerId.cudafe1.cpp" ]]
+        considering line: [cl.exe @"tmp/CMakeCUDACompilerId.obj.res" -Fo"tmp/CMakeCUDACompilerId.obj" ]
+        considering line: [CMakeCUDACompilerId.cudafe1.cpp]
+        considering line: [resource file tmp/a_dlink.sm_52.cubin.optf: [-m64 --arch=sm_52 --register-link-binaries="tmp/a_dlink.reg.c"    "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64" -cpu-arch=X86_64 "tmp/CMakeCUDACompilerId.obj"  cudadevrt.lib  -o "tmp/a_dlink.sm_52.cubin"]]
+          extracted link line: [resource file tmp/a_dlink.sm_52.cubin.optf: [-m64 --arch=sm_52 --register-link-binaries="tmp/a_dlink.reg.c"    "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64" -cpu-arch=X86_64 "tmp/CMakeCUDACompilerId.obj"  cudadevrt.lib  -o "tmp/a_dlink.sm_52.cubin"]]
+        considering line: [nvlink -optf "tmp/a_dlink.sm_52.cubin.optf"]
+          ignoring nvlink line
+        considering line: [fatbinary --create="tmp/a_dlink.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -link "--image3=kind=elf,sm=52,file=tmp/a_dlink.sm_52.cubin" --embedded-fatbin="tmp/a_dlink.fatbin.c" ]
+        considering line: [resource file tmp/a_dlink.obj.res: [-D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -c -TP -EHsc -DFATBINFILE="\\"tmp/a_dlink.fatbin.c\\"" -DREGISTERLINKBINARYFILE="\\"tmp/a_dlink.reg.c\\"" -I. -D__NV_EXTRA_INITIALIZATION= -D__NV_EXTRA_FINALIZATION= -D__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__  "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../include"    -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=6 -D__CUDACC_VER_BUILD__=20 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=6 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin\\crt\\link.stub" ]]
+        considering line: [cl.exe @"tmp/a_dlink.obj.res" -Fo"tmp/a_dlink.obj" ]
+        considering line: [link.stub]
+        considering line: [resource file tmp/a.exe.res: [-D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\a_dlink.obj" "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\CMakeCUDACompilerId.obj" -link -INCREMENTAL:NO   "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64"  cudadevrt.lib  cudart_static.lib]]
+          extracted link line: [resource file tmp/a.exe.res: [-D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\a_dlink.obj" "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\CMakeCUDACompilerId.obj" -link -INCREMENTAL:NO   "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64"  cudadevrt.lib  cudart_static.lib]]
+        considering line: [cl.exe @"tmp/a.exe.res" -Fe"a.exe" ]
+          extracted link line: [cl.exe -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\a_dlink.obj" "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\CMakeCUDACompilerId.obj" -link -INCREMENTAL:NO   "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64"  cudadevrt.lib  cudart_static.lib -Fe"a.exe" ]
+        considering line: [   Creating library a.lib and object a.exp]
+        considering line: []
+      
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        link line: [cuda-fake-ld cl.exe -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\a_dlink.obj" "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\CMakeCUDACompilerId.obj" -link -INCREMENTAL:NO   "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64"  cudadevrt.lib  cudart_static.lib -Fe"a.exe" ]
+          arg [cuda-fake-ld] ==> ignore
+          arg [cl.exe] ==> recognize MSVC cl
+          arg [-D__CUDA_ARCH_LIST__=520] ==> ignore
+          arg [-D__NV_LEGACY_LAUNCH] ==> ignore
+          arg [-nologo] ==> ignore
+          arg [C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\a_dlink.obj] ==> ignore
+          arg [C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\CMakeCUDACompilerId.obj] ==> ignore
+          arg [-link] ==> ignore MSVC cl option
+          arg [-INCREMENTAL:NO] ==> ignore
+          arg [/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64] ==> dir [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64]
+          arg [cudadevrt.lib] ==> lib [cudadevrt.lib]
+          arg [cudart_static.lib] ==> lib [cudart_static.lib]
+          arg [-Fea.exe] ==> ignore
+        collapse library dir [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64] ==> [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib/x64]
+        implicit libs: [cudadevrt.lib;cudart_static.lib]
+        implicit objs: []
+        implicit dirs: [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib/x64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCUDACompiler.cmake:579 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CUDA nvcc include information:
+        found 'PATH=' string: [C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Performance Tools\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Performance Tools;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\;C:\\MinGW\\bin;C:\\MinGW\\bin;c:\\Users\\vivaa\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp;C:\\Program Files\\Oculus\\Support\\oculus-runtime;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\dotnet\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\flutter\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\CMake\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\MySQL\\MySQL Shell 9.5\\bin\\;C:\\Users\\vivaa\\miniconda3;C:\\Users\\vivaa\\miniconda3\\Library\\mingw-w64\\bin;C:\\Users\\vivaa\\miniconda3\\Library\\usr\\bin;C:\\Users\\vivaa\\miniconda3\\Library\\bin;C:\\Users\\vivaa\\miniconda3\\Scripts;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\vivaa\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\flutter\\flutter\\bin;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;;C:\\Program Files\\Java\\jdk-19\\bin;C:\\Users\\vivaa\\AppData\\Local\\Pub\\Cache\\bin;C:\\MinGW\\bin;C:\\tools\\dart-sdk\\bin;C:\\Users\\vivaa\\AppData\\Roaming\\Pub\\Cache\\bin;C:\\FlutterAliases;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Ollama;C:\\Users\\vivaa\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64;C:\\Users\\vivaa\\AppData\\Roaming\\npm;C:\\Users\\vivaa\\AppData\\Local\\Programs\\Antigravity\\bin;C:\\platform-tools;;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg]
+        found 'LIBRARIES=' string: ["/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64"]
+        considering line: []
+        considering line: [C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA>call "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/../../../../../../../VC/Auxiliary/Build/vcvars64.bat" ]
+        considering line: [**********************************************************************]
+        considering line: [** Visual Studio 2022 Developer Command Prompt v17.6.5]
+        considering line: [** Copyright (c) 2022 Microsoft Corporation]
+        considering line: [**********************************************************************]
+        considering line: [[vcvarsall.bat] Environment initialized for: 'x64']
+        considering line: [C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/../../../../../../../VC/Auxiliary/Build/vcvars64.bat]
+        considering line: [PyCharm Community Edition=C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin]
+        considering line: []
+        considering line: [erase tmp/a_dlink.reg.c]
+        considering line: [CMakeCUDACompilerId.cu]
+        considering line: [resource file tmp/CMakeCUDACompilerId.cpp4.ii.res: [-D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -E -TP -EHsc -D__CUDACC__ -D__NVCC__  "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../include"    -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=6 -D__CUDACC_VER_BUILD__=20 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=6 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" "CMakeCUDACompilerId.cu" ]]
+        considering line: [cl.exe @"tmp/CMakeCUDACompilerId.cpp4.ii.res" > "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [CMakeCUDACompilerId.cu]
+        considering line: [cudafe++ --ms_c++14 --microsoft_version=1936 --msvc_target_version=1936 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/../../../../../../.." --sdk_dir "C:/Program Files (x86)/Windows Kits/10/" --display_error_number --orig_src_file_name "CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --m64 --parse_templates --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "CMakeCUDACompilerId.cudafe1.stub.c" --gen_module_id_file --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [resource file tmp/CMakeCUDACompilerId.cpp1.ii.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -E -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc -D__CUDACC__ -D__NVCC__  "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../include"    -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=6 -D__CUDACC_VER_BUILD__=20 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=6 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h" "CMakeCUDACompilerId.cu" ]]
+        considering line: [cl.exe @"tmp/CMakeCUDACompilerId.cpp1.ii.res" > "tmp/CMakeCUDACompilerId.cpp1.ii" ]
+        considering line: [CMakeCUDACompilerId.cu]
+        considering line: [""%CICC_PATH%\\cicc" --ms_c++14 --microsoft_version=1936 --msvc_target_version=1936 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/../../../../../../.." --sdk_dir "C:/Program Files (x86)/Windows Kits/10/" --display_error_number --orig_src_file_name "CMakeCUDACompilerId.cu" --orig_src_path_name "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "CMakeCUDACompilerId.fatbin.c" -tused --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.c" --stub_file_name "tmp/CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "tmp/CMakeCUDACompilerId.cudafe1.gpu"  "tmp/CMakeCUDACompilerId.cpp1.ii" -o "tmp/CMakeCUDACompilerId.ptx""]
+        considering line: [ptxas -arch=sm_52 -m64 "tmp/CMakeCUDACompilerId.ptx"  -o "tmp/CMakeCUDACompilerId.sm_52.cubin" ]
+        considering line: [fatbinary --create="tmp/CMakeCUDACompilerId.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " "--image3=kind=elf,sm=52,file=tmp/CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=tmp/CMakeCUDACompilerId.ptx" --embedded-fatbin="tmp/CMakeCUDACompilerId.fatbin.c" ]
+        considering line: [resource file tmp/CMakeCUDACompilerId.obj.res: [-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -c -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../include"   "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\CMakeCUDACompilerId.cudafe1.cpp" ]]
+        considering line: [cl.exe @"tmp/CMakeCUDACompilerId.obj.res" -Fo"tmp/CMakeCUDACompilerId.obj" ]
+        considering line: [CMakeCUDACompilerId.cudafe1.cpp]
+        considering line: [resource file tmp/a_dlink.sm_52.cubin.optf: [-m64 --arch=sm_52 --register-link-binaries="tmp/a_dlink.reg.c"    "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64" -cpu-arch=X86_64 "tmp/CMakeCUDACompilerId.obj"  cudadevrt.lib  -o "tmp/a_dlink.sm_52.cubin"]]
+          extracted link line: [resource file tmp/a_dlink.sm_52.cubin.optf: [-m64 --arch=sm_52 --register-link-binaries="tmp/a_dlink.reg.c"    "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64" -cpu-arch=X86_64 "tmp/CMakeCUDACompilerId.obj"  cudadevrt.lib  -o "tmp/a_dlink.sm_52.cubin"]]
+        considering line: [nvlink -optf "tmp/a_dlink.sm_52.cubin.optf"]
+          ignoring nvlink line
+        considering line: [fatbinary --create="tmp/a_dlink.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -link "--image3=kind=elf,sm=52,file=tmp/a_dlink.sm_52.cubin" --embedded-fatbin="tmp/a_dlink.fatbin.c" ]
+        considering line: [resource file tmp/a_dlink.obj.res: [-D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo -c -TP -EHsc -DFATBINFILE="\\"tmp/a_dlink.fatbin.c\\"" -DREGISTERLINKBINARYFILE="\\"tmp/a_dlink.reg.c\\"" -I. -D__NV_EXTRA_INITIALIZATION= -D__NV_EXTRA_FINALIZATION= -D__CUDA_INCLUDE_COMPILER_INTERNAL_HEADERS__  "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../include"    -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=6 -D__CUDACC_VER_BUILD__=20 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=6 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin\\crt\\link.stub" ]]
+        considering line: [cl.exe @"tmp/a_dlink.obj.res" -Fo"tmp/a_dlink.obj" ]
+        considering line: [link.stub]
+        considering line: [resource file tmp/a.exe.res: [-D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\a_dlink.obj" "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\CMakeCUDACompilerId.obj" -link -INCREMENTAL:NO   "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64"  cudadevrt.lib  cudart_static.lib]]
+          extracted link line: [resource file tmp/a.exe.res: [-D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\a_dlink.obj" "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\CMakeCUDACompilerId.obj" -link -INCREMENTAL:NO   "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64"  cudadevrt.lib  cudart_static.lib]]
+        considering line: [cl.exe @"tmp/a.exe.res" -Fe"a.exe" ]
+          extracted link line: [cl.exe -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\a_dlink.obj" "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\CMakeCUDACompilerId.obj" -link -INCREMENTAL:NO   "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64"  cudadevrt.lib  cudart_static.lib -Fe"a.exe" ]
+        considering line: [   Creating library a.lib and object a.exp]
+        considering line: []
+        found 'INCLUDES=' string: ["-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../include"  ]
+      
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        link line: [cuda-fake-ld cl.exe -D__CUDA_ARCH_LIST__=520 -D__NV_LEGACY_LAUNCH -nologo "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\a_dlink.obj" "C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\CMakeCUDACompilerId.obj" -link -INCREMENTAL:NO   "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64"  cudadevrt.lib  cudart_static.lib -Fe"a.exe" ]
+          arg [cuda-fake-ld] ==> ignore
+          arg [cl.exe] ==> recognize MSVC cl
+          arg [-D__CUDA_ARCH_LIST__=520] ==> ignore
+          arg [-D__NV_LEGACY_LAUNCH] ==> ignore
+          arg [-nologo] ==> ignore
+          arg [C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\a_dlink.obj] ==> ignore
+          arg [C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\3.27.5\\CompilerIdCUDA\\tmp\\CMakeCUDACompilerId.obj] ==> ignore
+          arg [-link] ==> ignore MSVC cl option
+          arg [-INCREMENTAL:NO] ==> ignore
+          arg [/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64] ==> dir [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64]
+          arg [cudadevrt.lib] ==> lib [cudadevrt.lib]
+          arg [cudart_static.lib] ==> lib [cudart_static.lib]
+          arg [-Fea.exe] ==> ignore
+        collapse library dir [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/../lib/x64] ==> [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib/x64]
+        implicit libs: [cudadevrt.lib;cudart_static.lib]
+        implicit objs: []
+        implicit dirs: [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib/x64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/vivaa/cuda_test/build/CMakeFiles/CMakeScratch/TryCompile-j8ju1p"
+      binary: "C:/Users/vivaa/cuda_test/build/CMakeFiles/CMakeScratch/TryCompile-j8ju1p"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/vivaa/cuda_test/build/CMakeFiles/CMakeScratch/TryCompile-j8ju1p'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_b2d91/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b2d91.dir\\build.make CMakeFiles/cmTC_b2d91.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/vivaa/cuda_test/build/CMakeFiles/CMakeScratch/TryCompile-j8ju1p'
+        Building CXX object CMakeFiles/cmTC_b2d91.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\MinGW\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_b2d91.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=C:\\MinGW\\bin\\g++.exe
+        Target: mingw32
+        Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
+        Thread model: win32
+        gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b2d91.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles\\cmTC_b2d91.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\vivaa\\AppData\\Local\\Temp\\ccKtHx6g.s
+        GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
+        	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.2, isl version 0.15
+        warning: MPC header version 1.0.2 differs from library version 1.0.3.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++/mingw32"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++/backward"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include"
+        ignoring duplicate directory "/mingw/lib/gcc/mingw32/6.3.0/../../../../include"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include-fixed"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"
+        ignoring duplicate directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++/mingw32
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++/backward
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../include
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include-fixed
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include
+        End of search list.
+        GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
+        	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.2, isl version 0.15
+        warning: MPC header version 1.0.2 differs from library version 1.0.3.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: af09a87986453bf79da3565f33c7648f
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b2d91.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_b2d91.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\vivaa\\AppData\\Local\\Temp\\ccKtHx6g.s
+        GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28
+        COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
+        LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b2d91.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+        Linking CXX executable cmTC_b2d91.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b2d91.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_b2d91.dir/objects.a
+        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_b2d91.dir/objects.a @CMakeFiles\\cmTC_b2d91.dir\\objects1.rsp
+        C:\\MinGW\\bin\\g++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_b2d91.dir/objects.a -Wl,--no-whole-archive -o cmTC_b2d91.exe -Wl,--out-implib,libcmTC_b2d91.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=C:\\MinGW\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
+        Target: mingw32
+        Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
+        Thread model: win32
+        gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
+        COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
+        LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b2d91.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\vivaa\\AppData\\Local\\Temp\\ccLFOy9F.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_b2d91.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\\cmTC_b2d91.dir/objects.a --no-whole-archive --out-implib libcmTC_b2d91.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b2d91.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/vivaa/cuda_test/build/CMakeFiles/CMakeScratch/TryCompile-j8ju1p'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++/mingw32]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++/backward]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../include]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include-fixed]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/include]
+        end of search list found
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++/mingw32] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++/backward] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/backward]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0/include]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../include] ==> [C:/MinGW/include]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include-fixed] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0/include-fixed]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/include] ==> [C:/MinGW/mingw32/include]
+        implicit include dirs: [C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++;C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32;C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/backward;C:/MinGW/lib/gcc/mingw32/6.3.0/include;C:/MinGW/include;C:/MinGW/lib/gcc/mingw32/6.3.0/include-fixed;C:/MinGW/mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'C:/Users/vivaa/cuda_test/build/CMakeFiles/CMakeScratch/TryCompile-j8ju1p']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_b2d91/fast]
+        ignore line: [C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b2d91.dir\\build.make CMakeFiles/cmTC_b2d91.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/vivaa/cuda_test/build/CMakeFiles/CMakeScratch/TryCompile-j8ju1p']
+        ignore line: [Building CXX object CMakeFiles/cmTC_b2d91.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\MinGW\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_b2d91.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\g++.exe]
+        ignore line: [Target: mingw32]
+        ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c c++ objc obj-c++ fortran ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b2d91.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles\\cmTC_b2d91.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\vivaa\\AppData\\Local\\Temp\\ccKtHx6g.s]
+        ignore line: [GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)]
+        ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.2  isl version 0.15]
+        ignore line: [warning: MPC header version 1.0.2 differs from library version 1.0.3.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++/mingw32"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include"]
+        ignore line: [ignoring duplicate directory "/mingw/lib/gcc/mingw32/6.3.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"]
+        ignore line: [ignoring duplicate directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++/mingw32]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++/backward]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../include]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include-fixed]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)]
+        ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.2  isl version 0.15]
+        ignore line: [warning: MPC header version 1.0.2 differs from library version 1.0.3.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: af09a87986453bf79da3565f33c7648f]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b2d91.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_b2d91.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\vivaa\\AppData\\Local\\Temp\\ccKtHx6g.s]
+        ignore line: [GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28]
+        ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
+        ignore line: [c:/mingw/bin/../libexec/gcc/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/]
+        ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/]
+        ignore line: [c:/mingw/bin/../lib/gcc/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_b2d91.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [Linking CXX executable cmTC_b2d91.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b2d91.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_b2d91.dir/objects.a]
+        ignore line: [C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_b2d91.dir/objects.a @CMakeFiles\\cmTC_b2d91.dir\\objects1.rsp]
+        ignore line: [C:\\MinGW\\bin\\g++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_b2d91.dir/objects.a -Wl --no-whole-archive -o cmTC_b2d91.exe -Wl --out-implib libcmTC_b2d91.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe]
+        ignore line: [Target: mingw32]
+        ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c c++ objc obj-c++ fortran ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
+        ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
+        ignore line: [c:/mingw/bin/../libexec/gcc/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/]
+        ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/]
+        ignore line: [c:/mingw/bin/../lib/gcc/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b2d91.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\vivaa\\AppData\\Local\\Temp\\ccLFOy9F.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_b2d91.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\\cmTC_b2d91.dir/objects.a --no-whole-archive --out-implib libcmTC_b2d91.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+          arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\vivaa\\AppData\\Local\\Temp\\ccLFOy9F.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-u] ==> ignore
+          arg [___register_frame_info] ==> ignore
+          arg [-u] ==> ignore
+          arg [___deregister_frame_info] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_b2d91.exe] ==> ignore
+          arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o]
+          arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o]
+          arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0]
+          arg [-Lc:/mingw/bin/../lib/gcc] ==> dir [c:/mingw/bin/../lib/gcc]
+          arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib]
+          arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..]
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_b2d91.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_b2d91.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> [C:/MinGW/lib/crt2.o]
+        collapse obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0/crtbegin.o]
+        collapse obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0/crtend.o]
+        collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0]
+        collapse library dir [c:/mingw/bin/../lib/gcc] ==> [C:/MinGW/lib/gcc]
+        collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> [C:/MinGW/mingw32/lib]
+        collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> [C:/MinGW/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex]
+        implicit objs: [C:/MinGW/lib/crt2.o;C:/MinGW/lib/gcc/mingw32/6.3.0/crtbegin.o;C:/MinGW/lib/gcc/mingw32/6.3.0/crtend.o]
+        implicit dirs: [C:/MinGW/lib/gcc/mingw32/6.3.0;C:/MinGW/lib/gcc;C:/MinGW/mingw32/lib;C:/MinGW/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CUDA compiler ABI info"
+    directories:
+      source: "C:/Users/vivaa/cuda_test/build/CMakeFiles/CMakeScratch/TryCompile-j5h97h"
+      binary: "C:/Users/vivaa/cuda_test/build/CMakeFiles/CMakeScratch/TryCompile-j5h97h"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_FLAGS: "-D_WINDOWS -Xcompiler=\" /GR /EHsc\""
+      CMAKE_CUDA_FLAGS_DEBUG: "-Xcompiler=\" -Zi -Ob0 -Od /RTC1\""
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Static"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CUDA_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/vivaa/cuda_test/build/CMakeFiles/CMakeScratch/TryCompile-j5h97h'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_093d5/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_093d5.dir\\build.make CMakeFiles/cmTC_093d5.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/vivaa/cuda_test/build/CMakeFiles/CMakeScratch/TryCompile-j5h97h'
+        Building CUDA object CMakeFiles/cmTC_093d5.dir/CMakeCUDACompilerABI.cu.obj
+        C:\\PROGRA~1\\NVIDIA~2\\CUDA\\v12.6\\bin\\nvcc.exe -forward-unknown-to-host-compiler   -D_WINDOWS -Xcompiler=" /GR /EHsc"  -Xcompiler=" -Zi -Ob0 -Od /RTC1" "--generate-code=arch=compute_52,code=[compute_52,sm_52]" -Xcompiler=-MDd   -Xcompiler=-v -MD -MT CMakeFiles/cmTC_093d5.dir/CMakeCUDACompilerABI.cu.obj -MF CMakeFiles\\cmTC_093d5.dir\\CMakeCUDACompilerABI.cu.obj.d -x cu -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" -o CMakeFiles\\cmTC_093d5.dir\\CMakeCUDACompilerABI.cu.obj -Xcompiler=-FdCMakeFiles\\cmTC_093d5.dir/,-FS
+        cl : Command line warning D9002 : ignoring unknown option '-v'
+        CMakeCUDACompilerABI.cu
+        cl : Command line warning D9002 : ignoring unknown option '-v'
+        CMakeCUDACompilerABI.cu
+        CMakeCUDACompilerABI.cu
+        cl : Command line warning D9002 : ignoring unknown option '-v'
+        tmpxft_00008c94_00000000-10_CMakeCUDACompilerABI.cudafe1.cpp
+        Linking CUDA executable cmTC_093d5.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_093d5.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_093d5.dir --rc=C:\\MinGW\\bin\\windres.exe --mt="" --manifests -- C:\\MinGW\\bin\\ld.exe /nologo CMakeFiles/cmTC_093d5.dir/CMakeCUDACompilerABI.cu.obj  /out:cmTC_093d5.exe /implib:cmTC_093d5.lib /pdb:C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j5h97h\\cmTC_093d5.pdb /version:0.0  -v /debug /INCREMENTAL  cudadevrt.lib cudart_static.lib  -LIBPATH:"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib/x64" 
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_093d5.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_093d5.dir/embed.manifest
+        RC Pass 1:
+        C:\\MinGW\\bin\\windres.exe /fo CMakeFiles\\cmTC_093d5.dir/manifest.res CMakeFiles\\cmTC_093d5.dir/manifest.rc
+        RC Pass 1: command "C:\\MinGW\\bin\\windres.exe /fo CMakeFiles\\cmTC_093d5.dir/manifest.res CMakeFiles\\cmTC_093d5.dir/manifest.rc" failed (exit code 1) with the following output:
+        Usage: C:\\MinGW\\bin\\windres.exe [option(s)] [input-file] [output-file]
+         The options are:
+          -i --input=<file>            Name input file
+          -o --output=<file>           Name output file
+          -J --input-format=<format>   Specify input format
+          -O --output-format=<format>  Specify output format
+          -F --target=<target>         Specify COFF target
+             --preprocessor=<program>  Program to use to preprocess rc file
+             --preprocessor-arg=<arg>  Additional preprocessor argument
+          -I --include-dir=<dir>       Include directory when preprocessing rc file
+          -D --define <sym>[=<val>]    Define SYM when preprocessing rc file
+          -U --undefine <sym>          Undefine SYM when preprocessing rc file
+          -v --verbose                 Verbose - tells you what it's doing
+          -c --codepage=<codepage>     Specify default codepage
+          -l --language=<val>          Set language when reading rc file
+             --use-temp-file           Use a temporary file instead of popen to read
+                                       the preprocessor output
+             --no-use-temp-file        Use popen (default)
+          -r                           Ignored for compatibility with rc
+          @<file>                      Read options from <file>
+          -h --help                    Print this help message
+          -V --version                 Print version information
+        FORMAT is one of rc, res, or coff, and is deduced from the file name
+        extension if not specified.  A single file name is an input file.
+        No input-file is stdin, default rc.  No output-file is stdout, default rc.
+        C:\\MinGW\\bin\\windres.exe: supported targets: pe-i386 pei-i386 elf32-i386 elf32-iamcu elf32-little elf32-big plugin srec symbolsrec verilog tekhex binary ihex
+        CMakeFiles\\cmTC_093d5.dir\\build.make:98: recipe for target 'cmTC_093d5.exe' failed
+        mingw32-make.exe[1]: *** [cmTC_093d5.exe] Error -1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/vivaa/cuda_test/build/CMakeFiles/CMakeScratch/TryCompile-j5h97h'
+        Makefile:126: recipe for target 'cmTC_093d5/fast' failed
+        mingw32-make.exe: *** [cmTC_093d5/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCUDACompiler.cmake:89 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working CUDA compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/nvcc.exe"
+    directories:
+      source: "C:/Users/vivaa/cuda_test/build/CMakeFiles/CMakeScratch/TryCompile-l8x0bf"
+      binary: "C:/Users/vivaa/cuda_test/build/CMakeFiles/CMakeScratch/TryCompile-l8x0bf"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_FLAGS: "-D_WINDOWS -Xcompiler=\" /GR /EHsc\""
+      CMAKE_CUDA_FLAGS_DEBUG: "-Xcompiler=\" -Zi -Ob0 -Od /RTC1\""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CUDA_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/vivaa/cuda_test/build/CMakeFiles/CMakeScratch/TryCompile-l8x0bf'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_8d7af/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8d7af.dir\\build.make CMakeFiles/cmTC_8d7af.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/vivaa/cuda_test/build/CMakeFiles/CMakeScratch/TryCompile-l8x0bf'
+        Building CUDA object CMakeFiles/cmTC_8d7af.dir/main.cu.obj
+        C:\\PROGRA~1\\NVIDIA~2\\CUDA\\v12.6\\bin\\nvcc.exe -forward-unknown-to-host-compiler   -D_WINDOWS -Xcompiler=" /GR /EHsc"  -Xcompiler=" -Zi -Ob0 -Od /RTC1" "--generate-code=arch=compute_52,code=[compute_52,sm_52]" -Xcompiler=-MDd -MD -MT CMakeFiles/cmTC_8d7af.dir/main.cu.obj -MF CMakeFiles\\cmTC_8d7af.dir\\main.cu.obj.d -x cu -c C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8x0bf\\main.cu -o CMakeFiles\\cmTC_8d7af.dir\\main.cu.obj -Xcompiler=-FdCMakeFiles\\cmTC_8d7af.dir/,-FS
+        main.cu
+        tmpxft_000078c0_00000000-10_main.cudafe1.cpp
+        Linking CUDA executable cmTC_8d7af.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_8d7af.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_8d7af.dir --rc=C:\\MinGW\\bin\\windres.exe --mt="" --manifests -- C:\\MinGW\\bin\\ld.exe /nologo @CMakeFiles\\cmTC_8d7af.dir\\objects1.rsp  /out:cmTC_8d7af.exe /implib:cmTC_8d7af.lib /pdb:C:\\Users\\vivaa\\cuda_test\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l8x0bf\\cmTC_8d7af.pdb /version:0.0 /debug /INCREMENTAL @CMakeFiles\\cmTC_8d7af.dir\\linkLibs.rsp -LIBPATH:"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib/x64" 
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_8d7af.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_8d7af.dir/embed.manifest
+        RC Pass 1:
+        C:\\MinGW\\bin\\windres.exe /fo CMakeFiles\\cmTC_8d7af.dir/manifest.res CMakeFiles\\cmTC_8d7af.dir/manifest.rc
+        RC Pass 1: command "C:\\MinGW\\bin\\windres.exe /fo CMakeFiles\\cmTC_8d7af.dir/manifest.res CMakeFiles\\cmTC_8d7af.dir/manifest.rc" failed (exit code 1) with the following output:
+        Usage: C:\\MinGW\\bin\\windres.exe [option(s)] [input-file] [output-file]
+         The options are:
+          -i --input=<file>            Name input file
+          -o --output=<file>           Name output file
+          -J --input-format=<format>   Specify input format
+          -O --output-format=<format>  Specify output format
+          -F --target=<target>         Specify COFF target
+             --preprocessor=<program>  Program to use to preprocess rc file
+             --preprocessor-arg=<arg>  Additional preprocessor argument
+          -I --include-dir=<dir>       Include directory when preprocessing rc file
+          -D --define <sym>[=<val>]    Define SYM when preprocessing rc file
+          -U --undefine <sym>          Undefine SYM when preprocessing rc file
+          -v --verbose                 Verbose - tells you what it's doing
+          -c --codepage=<codepage>     Specify default codepage
+          -l --language=<val>          Set language when reading rc file
+             --use-temp-file           Use a temporary file instead of popen to read
+                                       the preprocessor output
+             --no-use-temp-file        Use popen (default)
+          -r                           Ignored for compatibility with rc
+          @<file>                      Read options from <file>
+          -h --help                    Print this help message
+          -V --version                 Print version information
+        FORMAT is one of rc, res, or coff, and is deduced from the file name
+        extension if not specified.  A single file name is an input file.
+        No input-file is stdin, default rc.  No output-file is stdout, default rc.
+        C:\\MinGW\\bin\\windres.exe: supported targets: pe-i386 pei-i386 elf32-i386 elf32-iamcu elf32-little elf32-big plugin srec symbolsrec verilog tekhex binary ihex
+        CMakeFiles\\cmTC_8d7af.dir\\build.make:100: recipe for target 'cmTC_8d7af.exe' failed
+        mingw32-make.exe[1]: *** [cmTC_8d7af.exe] Error -1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/vivaa/cuda_test/build/CMakeFiles/CMakeScratch/TryCompile-l8x0bf'
+        Makefile:126: recipe for target 'cmTC_8d7af/fast' failed
+        mingw32-make.exe: *** [cmTC_8d7af/fast] Error 2
+        
+      exitCode: 2
+...
